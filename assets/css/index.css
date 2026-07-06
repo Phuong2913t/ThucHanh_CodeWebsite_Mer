@@ -3,32 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
+/* body
 {
     text-align: center;
-}
+} */
 #main-container
 {
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
-/* 1. Bỏ dấu chấm tròn mặc định của thẻ ul li */
-ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
-}  
-nav ul {
-    display: flex;            /* Flexbox để các phần tử con xếp hàng ngang */
-    gap: 20px;                /* Tạo khoảng cách 20px giữa các menu */
-    justify-content: center;  /* Cả thanh menu ra chính giữa màn hình */
-}
-.a-tag{
-    text-decoration: none; /* Bỏ gạch chân */
-    color: #333333;     
-    font-size: 18px;       
-}  
-ol li{
-    display: inline-block; /* Thu nhỏ vua với nội dung */
-    text-align: left;      /* cawn trái */
+#header-container, #navbar
+{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;       /*xép hàng ngang*/
+    justify-content: space-between;   /*đầu cuối giàn đều trái phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
 }    
+#shopname
+{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#navbar-container
+{
+    height: 60px;
+    background-color: orangered;
+}
+/* #home-image img{
+    overflow: hidden;
+} */
+ #map-addr
+ {
+    height: 300px;
+    background-color: aquamarine;
+ }
+#footer-ctn
+{
+    background-color: orangered;
+}
+#map-iframe
+{
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
