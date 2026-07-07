@@ -1,0 +1,10 @@
+
+h1, h2
+{
+    text-align: center;
+    padding: 20px 0;
+}
+ul{
+    list-style-type: disc; 
+    padding-left: 20px;
+}

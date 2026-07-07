@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body
+{
+    text-align: center;
+} */
+#main-container, #navbar
+{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header-container, #navbar
+{   
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;       /*xép hàng ngang*/
+    justify-content: space-between;   /*đầu cuối giàn đều trái phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}    
+
+#shopname
+{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+#navbar-container
+{
+    height: 60px;
+    background-color: orangered;
+}
+#auth-container
+{
+    padding-right: 20px;
+}
+
+#footer-ctn
+{
+    background-color: orangered;
+}
