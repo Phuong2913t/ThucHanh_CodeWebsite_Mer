@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giới thiệu</title>
-    <link rel="stylesheet" href="./assets/about.css">
+    <link rel="stylesheet" href="./assets/css/product.css">
     <link rel="stylesheet" href="./assets/css/common.css">
 </head>
 <body>
@@ -45,10 +45,70 @@
             </div>
         </section>
         <!-- ------------------------Ket thuc phan website chung--------------------------------------------->
-        <section>
-
+        <section id="carousel-container">
+            <div id="carousel-content">
+                <a href="#prod1" class="pre-btn page-btn">&lt;</a>
+                <div id="product-list">
+                    <div id="prod-page1" class="page-contaniner">
+                        <div class="product-card" id="prod1">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp1.webp">
+                            <h3 class="product-name">Tên sản phẩm 1</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <!-- Khi click, nó sẽ mở file product-detail.html VÀ nhảy tới cái ID #productPopup để kích hoạt CSS hiện pop-up -->
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card" id="prod2">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp2.jpg">
+                            <h3 class="product-name">Tên sản phẩm 2</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card" id="prod3">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp3.webp">
+                            <h3 class="product-name">Tên sản phẩm 3</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div id="prod-page2" class="page-contaniner">
+                        <div class="product-card" id="prod1">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp4.webp">
+                            <h3 class="product-name">Tên sản phẩm 4</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <!-- Khi click, nó sẽ mở file product-detail.html VÀ nhảy tới cái ID #productPopup để kích hoạt CSS hiện pop-up -->
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card" id="prod2">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp5.webp">
+                            <h3 class="product-name">Tên sản phẩm 5</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                        <div class="product-card" id="prod3">
+                            <img class="product-image" alt="anh san pham" width="200px" src="./assets/images/anh-sp6.webp">
+                            <h3 class="product-name">Tên sản phẩm 6</h3>
+                            <p class="product-price">150.000 VNĐ</p>
+                            <p class="product-desc">Sách đưa ra các lời khuyên về cách ứng xử và giao tiếp với mọi người</p>
+                            <a class="product-detail" href="product-detail.html#product-Popup" target="popup-frame">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#prod-page2" class="next-btn page-btn">&gt;</a>
+            </div>
+            <!-- Thanh phân trang (Mũi tên được xử lý bằng Entities) -->
+            <div class="pre-next page-btn">
+                <a href="#prod-page1">&lt;</a> 
+                <a href="#prod-page1">1</a>
+                <a href="#prod-page2">2</a>
+                <a href="#prod-page2">&gt;</a> 
+            </div>
         </section>
-
+       
         <!-- ------------------------Footer--------------------------------------------->
         <section id="footer-ctn">
             <div id="footer-content">

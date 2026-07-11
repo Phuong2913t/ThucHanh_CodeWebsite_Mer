@@ -1,0 +1,41 @@
+
+#carousel-content
+{
+    display: flex;
+    align-items: center;
+}
+
+#product-list
+{
+    display: flex;
+    padding: 20px 0;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page-contaniner
+{
+    display: flex;
+}
+.product-card
+{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-right: 50px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.pre-next
+{
+        text-align: center;
+}
+.product-list a, .page-btn, .pre-next a
+{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}

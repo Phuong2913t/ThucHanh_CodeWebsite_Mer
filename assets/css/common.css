@@ -30,6 +30,7 @@
 }
 #navbar-container
 {
+    display: flex;
     height: 60px;
     background-color: orangered;
 }
